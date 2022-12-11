@@ -1,0 +1,1691 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif, 'Great Vibes', cursive;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.Enav-item a{
+    color: #000;
+font-size: 16px;
+font-weight: 400;
+margin-right: 19px;
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.Enav-item a:hover{
+    color: #70722c;
+}
+
+
+.Eheader-btn {
+	color: #ffff;
+	border-bottom-color: #4781bf;
+	background-color: #4781bf;
+}
+.Eheader-btn:hover{
+    color: #fff;
+background-color: #4781bf;
+border-color: #4781bf;
+}
+
+/*
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 0.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.navbar-toggler {
+    padding: .10rem .15rem;
+    line-height: 1;
+    background-color: #cc9933;
+    color: #fff;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+*/
+
+
+
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 6px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #bf9c31;
+    background-clip: padding-box;
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+    padding: 7px;
+    color: #fff;
+}
+
+.carousel-caption h5 {
+    font-size: 36px;
+    color: #bf9c31;
+
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Great Vibes', cursive;
+}
+
+.carousel-caption h6 {
+    font-size: 52px;
+    color: #bf9c31;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Great Vibes', cursive;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    color: #bf9c31;
+    text-align: center;
+    padding-bottom: 130px;
+    font-family: 'Great Vibes', cursive;
+}
+
+
+.dream-event h3 {
+    color: #fc6767;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+
+}
+
+.dream-event {
+    padding: 50px 0;
+}
+
+
+.em_bar {
+    height: 3px;
+    width: 100px;
+    background: #fc6767;
+    margin: 30px auto;
+
+}
+
+.dream-pic img {
+    border-radius: 10px 10px 0 0;
+
+}
+
+.dream-pic {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.dream-pic:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 1px 1px 20px 1px #000;
+}
+
+.dream-pic::after {
+    position: absolute;
+    content: "";
+    width: 290px;
+    height: 500px;
+    top: 51px;
+    left: 57px;
+    border: 4px solid #bf9b31;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.dream-pic h4 {
+    color: #fff;
+    background-color: #bf9b31;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.pic-overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 48px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: 1s;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px 10px 0 0;
+}
+
+.pic-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.59);
+    opacity: 1;
+    transition: 1s;
+}
+
+.pic-overlay p {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 250px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+}
+
+.gallery {
+    padding-bottom: 50px;
+}
+
+.gallery h4 {
+    color: #fc6767;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+
+
+.gall-pic img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.gall-pic {
+    position: relative;
+}
+
+.gall-pic {
+    margin: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 84px 155px;
+    opacity: 0;
+    background: linear-gradient(135deg, #ff323273 0%, #ffcc1463 100%);
+    transition: .6S;
+
+}
+
+.overlay:hover {
+    opacity: 1;
+    transition: .6S;
+    border-radius: 10px;
+}
+
+.overlay i {
+    color: white;
+    font-size: 55px;
+}
+
+.overlay a {
+    z-index: 1;
+}
+
+.video-sample {
+    background: linear-gradient(to bottom, rgba(0, 15, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(191, 156, 49, 1) 100%);
+}
+
+.video-sample h6 {
+    color: #fc6767;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+iframe {
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+.picture h5 {
+    font-size: 30px;
+    text-align: center;
+    color: #fc6767;
+    position: relative;
+    padding: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+.picture {
+    padding: 50px 0;
+}
+
+
+.pic-box {
+    display: flex;
+}
+
+.birth-p {
+    margin-right: 40px;
+}
+
+.pic-photo {
+    margin-bottom: 40px;
+    transition: 1s;
+
+}
+
+.pic-photo img:hover {
+    transform: rotateY(180deg);
+    transition: 1s;
+    box-shadow: 1px 1px 20px 1px #000;
+}
+
+.pic-photo1 img:hover {
+    transform: rotateY(180deg);
+    transition: 1s;
+    box-shadow: 1px 1px 20px 1px #000;
+}
+
+
+.pic-photo img,
+.pic-photo1 img {
+    border-radius: 10px;
+}
+
+.our-event h6 {
+    color: #fc6767;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+.our-event .em_bar {
+    height: 3px;
+    width: 100px;
+    background: #fc6767;
+    margin: 20px auto;
+
+}
+
+.our-event {
+    padding-bottom: 20px;
+}
+
+.card-text {
+    text-align: center;
+    color: #bf9b31;
+    font-family: 'Playfair Display', serif;
+}
+
+.choose-event h3 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+.choose-event p {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.choose-event {
+    background-image: url(../images/atTcu5XfXfpaDOhUCprJ_full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+}
+
+.form-b input {
+    padding: 14px 380px 14px 8px;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    box-shadow: 1px 1px 20px 1px #000;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.choose-overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 150px 155px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+#submit {
+    padding: 14px 19px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-left: 15px;
+    box-shadow: 1px 1px 20px 1px #000;
+}
+
+
+
+
+<-----------responsive-start-------------- > 
+@media only screen and (max-width: 1399.98px) {
+    .nav-item a {
+        font-size: 12px;
+        margin-right: 8px;
+
+    }
+
+    .btn {
+        margin-left: 22px;
+
+    }
+}
+
+@media only screen and (max-width: 1300.98px) {
+    .nav-item a {
+        font-size: 14px;
+        margin-right: 8px;
+
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    iframe {
+        height: 300px;
+        width: 460px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1245px) {
+    .dream-pic {
+        height: 85%;
+        width: 80%;
+    }
+
+    .dream-pic img {
+        width: 100%;
+        height: 90%;
+    }
+
+    .dream-pic::after {
+        width: 238px;
+        height: 312px;
+        top: 40px;
+        left: 37px;
+    }
+
+    .pic-overlay {
+        bottom: 43px;
+    }
+
+    .pic-overlay:hover {
+        background-color: rgba(0, 0, 0, 0.59);
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .pic-overlay p {
+        font-size: 20px;
+        padding-top: 140px;
+    }
+
+    .form-b input {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .form-b input {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .form-b input {
+        padding: 14px 380px 14px 8px;
+        text-align: left;
+    }
+
+    .dream-pic::after {
+        width: 227px;
+        height: 300px;
+        top: 40px;
+        left: 37px;
+    }
+
+    .overlay {
+        padding: 70px 115px;
+    }
+
+    .pic-photo img {
+        width: 400%;
+    }
+
+    .pic-photo1 img {
+        width: 70%;
+
+    }
+    .nav-item a {
+        font-size: 12px;
+        margin-right: 8px;
+
+    }
+
+    .btn {
+        margin-left: 5px;
+        font-size: 14px;
+
+    }
+
+}
+
+@media only screen and (max-width: 1150.98px) {
+    .epilog img {
+        width: 210px;
+        margin-top: 22px;
+    }
+
+    .contact {
+        margin-left: 0;
+
+    }
+}
+
+
+@media only screen and (max-width: 1140px) {
+
+    .dream-pic::after {
+        width: 210px;
+        height: 280px;
+        top: 40px;
+        left: 37px;
+    }
+
+    .pic-overlay {
+        bottom: 41px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+    .form-b input {
+        padding: 14px 380px 14px 8px;
+        text-align: left;
+    }
+
+    .dream-pic::after {
+        width: 190px;
+        height: 265px;
+        top: 40px;
+        left: 37px;
+    }
+
+    .pic-overlay {
+        bottom: 39px;
+    }
+
+    .pic-overlay p {
+        font-size: 17px;
+        padding-top: 110px;
+    }
+}
+
+
+@media only screen and (max-width: 1030px) {
+    #submit {
+        padding: 14px 18px;
+    }
+
+    .form-b input {
+        padding: 14px 170px 14px 8px;
+        text-align: left;
+    }
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .dream-pic::after {
+        width: 178px;
+        height: 242px;
+        top: 40px;
+        left: 37px;
+    }
+
+    .pic-overlay {
+        bottom: 37px;
+    }
+
+    .pic-overlay p {
+        font-size: 15px;
+        padding-top: 110px;
+    }
+}
+
+
+@media only screen and (max-width: 991.98px) {
+    .epilog img {
+        width: 250px;
+        margin-top: 10px;
+    }
+
+    .epilog p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .footer-page a i {
+        margin-right: 11px;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .overlay {
+        padding: 45px 70px;
+    }
+
+
+    #submit {
+        padding: 3px 0px;
+    }
+
+    .choose-event p {
+        font-size: 18px;
+    }
+
+    #submit {
+        padding: 13px 15px;
+    }
+
+    .form-b input {
+        padding: 14px 274px 14px 8px;
+
+    }
+
+    .girlimg img {
+        width: 60%;
+        padding-top: 50px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+    .dream-pic::after {
+        width: 162px;
+        height: 224px;
+        top: 40px;
+        left: 37px;
+    }
+
+    .pic-overlay {
+        bottom: 34px;
+    }
+
+    .pic-overlay p {
+        font-size: 15px;
+        padding-top: 110px;
+    }
+
+}
+
+@media only screen and (max-width: 916px) {
+    .form-b input {
+
+        padding: 14px 140px 14px 8px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .carousel-caption h5 {
+        font-size: 30px;
+    }
+
+    .carousel-caption h6 {
+        font-size: 44px;
+        padding: 10px 0;
+
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+        padding-bottom: 120px;
+
+    }
+
+    .dream-pic::after {
+        width: 150px;
+        height: 210px;
+        top: 40px;
+        left: 37px;
+    }
+
+    .pic-overlay {
+        bottom: 31px;
+    }
+
+    .pic-overlay p {
+        font-size: 13px;
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .dream-pic::after {
+        width: 130px;
+        height: 195px;
+        top: 40px;
+        left: 37px;
+    }
+
+    .pic-overlay {
+        bottom: 30px;
+    }
+
+    .dream-pic h4 {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 827px) {
+    .choose-event h3 {
+        font-size: 36px;
+    }
+
+
+}
+
+@media only screen and (max-width: 799px) {
+    .carousel-indicators [data-bs-target] {
+        height: 0px;
+        width: 3px;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+        padding-bottom: 100px;
+    }
+
+    .dream-pic::after {
+        width: 115px;
+        height: 180px;
+        top: 40px;
+        left: 37px;
+    }
+
+    .dream-pic h4 {
+        font-size: 15px;
+    }
+
+    .pic-overlay {
+        bottom: 28px;
+    }
+
+    .pic-overlay p {
+        font-size: 10px;
+        padding-top: 75px;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    #submit {
+        padding: 7px 17px;
+        font-size: 10px;
+    }
+
+    .form-b input {
+        padding: 8px 34px 8px 8px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-caption p {
+        padding-bottom: 100px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        height: 0px;
+        width: 3px;
+    }
+
+    .overlay {
+        padding: 130px 215px;
+    }
+
+    .choose-event h3 {
+        font-size: 30px;
+    }
+
+    .choose-event p {
+        font-size: 14px;
+    }
+
+    #submit {
+        padding: 8px 26px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 7px 80px 14px 8px;
+    }
+
+    .girlimg img {
+        display: none;
+        visibility: hidden;
+    }
+
+    iframe {
+        height: 100%;
+        width: 100%;
+        margin-right: 80px;
+
+    }
+
+    .video-sample {
+        padding-bottom: 100px;
+    }
+
+    .pic-photo img {
+        width: 83%;
+        margin-left: 20px;
+    }
+
+    .pic-photo1 img {
+        width: 100%;
+
+    }
+
+    .choose-event {
+        padding: 180px 0;
+    }
+
+    .choose-overlay {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 83px 155px;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.59);
+    }
+
+    .dream-pic::after {
+        width: 450px;
+        height: 602px;
+        top: 68px;
+        left: 71px;
+    }
+
+    .pic-overlay {
+        bottom: 81px;
+    }
+
+    .pic-overlay p {
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 290px;
+    }
+
+    .dream-pic h4 {
+        padding: 24px 0;
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 740px) {
+    .dream-pic::after {
+        width: 420px;
+        height: 570px;
+        top: 68px;
+        left: 71px;
+    }
+
+    .pic-overlay {
+        bottom: 81px;
+    }
+}
+
+@media only screen and (max-width: 716px) {
+    #submit {
+        padding: 8px 25px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 7px 80px 14px 8px;
+    }
+}
+
+@media only screen and (max-width: 714px) {
+    #submit {
+        padding: 9px 25px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 7px 65px 14px 8px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .dream-pic::after {
+        width: 390px;
+        height: 550px;
+        top: 68px;
+        left: 71px;
+    }
+
+    .pic-overlay {
+        bottom: 76px;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    #submit {
+        padding: 8px 18px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 7px 60px 14px 8px;
+    }
+
+    .carousel-caption p {
+        padding-bottom: 54px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        height: 0px;
+        width: 3px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .carousel-caption p {
+        padding-bottom: 54px;
+    }
+
+    #submit {
+        padding: 7px 18px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 5px 55px 14px 8px;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    #submit {
+        padding: 7px 18px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 5px 50px 10px 0px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .carousel-caption p {
+        padding-bottom: 54px;
+    }
+
+    .dream-pic::after {
+        width: 370px;
+        height: 520px;
+        top: 68px;
+        left: 71px;
+    }
+
+    .pic-overlay {
+        bottom: 72px;
+    }
+
+    .pic-overlay p {
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 240px;
+    }
+}
+
+
+@media only screen and (max-width: 662px) {
+    #submit {
+        padding: 7px 18px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 5px 10px 10px 0px;
+        font-size: 12PX;
+    }
+}
+
+@media only screen and (max-width: 633px) {
+    .choose-event h3 {
+        font-size: 20px;
+    }
+
+    .choose-event p {
+        font-size: 10px;
+    }
+
+    .dream-pic::after {
+        width: 350px;
+        height: 490px;
+        top: 68px;
+        left: 71px;
+    }
+
+    .pic-overlay {
+        bottom: 69px;
+    }
+
+    .pic-overlay p {
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 240px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .dream-pic::after {
+        width: 320px;
+        height: 460px;
+        top: 68px;
+        left: 71px;
+    }
+
+    .pic-overlay {
+        bottom: 66px;
+    }
+
+    .pic-overlay p {
+        font-size: 26px;
+        line-height: 40px;
+        padding-top: 220px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .carousel-caption h5 {
+        font-size: 25px;
+    }
+
+    .carousel-caption h6 {
+        font-size: 40px;
+        padding: 10px 0;
+
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+        padding-bottom: 40px;
+
+    }
+
+    .dream-pic::after {
+        width: 290px;
+        height: 430px;
+        top: 68px;
+        left: 71px;
+    }
+
+    .pic-overlay {
+        bottom: 61px;
+    }
+
+    .pic-overlay p {
+        font-size: 26px;
+        line-height: 40px;
+        padding-top: 220px;
+    }
+
+    .dream-pic h4 {
+        padding: 18px 0;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 572px) {
+    #submit {
+        padding: 7px 18px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 5px 9px 8px 0px;
+        font-size: 10PX;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .choose-event h3 {
+        font-size: 19px;
+    }
+
+    .choose-event p {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .dream-pic::after {
+        width: 270px;
+        height: 390px;
+        top: 68px;
+        left: 71px;
+    }
+
+    .pic-overlay {
+        bottom: 58px;
+    }
+
+    .pic-overlay p {
+        font-size: 20px;
+        line-height: 40px;
+        padding-top: 180px;
+    }
+
+    .dream-pic h4 {
+        padding: 18px 0;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 546px) {
+    #submit {
+        padding: 6px 18px;
+        font-size: 8px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 5px 9px 8px 0px;
+        font-size: 10PX;
+    }
+}
+
+@media only screen and (max-width: 537px) {
+    #submit {
+        padding: 3px 10px;
+        font-size: 7px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 3px 3px 5px 0px;
+        font-size: 8PX;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .card {
+        width: 4rem;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .dream-pic::after {
+        width: 240px;
+        height: 350px;
+        top: 68px;
+        left: 71px;
+    }
+
+    .pic-overlay {
+        bottom: 55px;
+    }
+
+    .pic-overlay p {
+        font-size: 20px;
+        line-height: 40px;
+        padding-top: 150px;
+    }
+
+    .dream-pic h4 {
+        padding: 16px 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .choose-event h3 {
+        font-size: 18px;
+    }
+
+    .choose-event p {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 484px) {
+    .overlay {
+        padding: 115px 180px;
+    }
+
+    #submit {
+        padding: 3px 33px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .form-b input {
+        text-align: left;
+        padding: 10px 5px 10px 0px;
+        font-size: 10PX;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+
+    .carousel-indicators [data-bs-target] {
+        height: 0px;
+        width: 3px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 20px;
+    }
+
+    .carousel-caption h6 {
+        font-size: 35px;
+        padding: 10px 0;
+
+    }
+
+    .carousel-caption p {
+        padding-bottom: 40px;
+    }
+
+    .overlay {
+        padding: 115px 184px;
+    }
+
+    .pic-photo1 img {
+        width: 105%;
+    }
+
+    .dream-pic::after {
+        width: 210px;
+        height: 310px;
+        top: 68px;
+        left: 71px;
+    }
+
+    .pic-overlay {
+        bottom: 50px;
+    }
+
+    .pic-overlay p {
+        font-size: 18px;
+        line-height: 40px;
+        padding-top: 140px;
+    }
+
+}
+
+@media only screen and (max-width: 467px) {
+    .carousel-indicators [data-bs-target] {
+        width: 1px;
+        height: 1px;
+        padding: 5px;
+
+    }
+
+    .carousel-caption h5 {
+        font-size: 18px;
+    }
+
+    .carousel-caption h6 {
+        font-size: 42px;
+        padding: 7px 0;
+
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+        padding-bottom: 15px;
+
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .overlay {
+        padding: 100px 170px;
+    }
+
+    .dream-pic::after {
+        width: 230px;
+        height: 330px;
+        top: 50px;
+        left: 55px
+    }
+
+    .pic-overlay {
+        bottom: 47px;
+    }
+
+    .pic-overlay p {
+        font-size: 16px;
+        line-height: 40px;
+        padding-top: 130px;
+    }
+
+    .dream-pic h4 {
+        padding: 14px 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .dream-pic::after {
+        width: 243px;
+        height: 330px;
+        top: 41px;
+        left: 40px;
+    }
+
+    .pic-overlay {
+        bottom: 45px;
+    }
+
+    .pic-overlay p {
+        font-size: 16px;
+        line-height: 40px;
+        padding-top: 130px;
+    }
+
+    .dream-pic h4 {
+        padding: 14px 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 407px) {
+    .choose-overlay {
+        padding: 40px 135px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .choose-overlay {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 40px 130px;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.59);
+    }
+
+    .pic-photo img {
+        width: 78%;
+        margin-left: 20px;
+    }
+
+    .dream-pic::after {
+        width: 200px;
+        height: 288px;
+        top: 50px;
+        left: 50px;
+    }
+
+    .pic-overlay {
+        bottom: 42px;
+    }
+
+    .pic-overlay p {
+        font-size: 16px;
+        line-height: 40px;
+        padding-top: 110px;
+    }
+
+    .dream-pic h4 {
+        padding: 12px 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 391px) {
+    .carousel-indicators [data-bs-target] {
+        width: 1px;
+        height: 1px;
+        padding: 5px;
+
+    }
+
+    .carousel-caption h5 {
+        font-size: 16px;
+    }
+
+    .carousel-caption h6 {
+        font-size: 40px;
+        padding: 5px 0;
+
+    }
+
+    .carousel-caption p {
+        font-size: 9px;
+        padding-bottom: 10px;
+
+    }
+
+    .overlay {
+        padding: 83px 140px;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+    .overlay {
+        padding: 75px 135px;
+    }
+
+    .dream-pic::after {
+        width: 199px;
+        height: 280px;
+        top: 46px;
+        left: 46px;
+    }
+
+    .pic-overlay {
+        bottom: 40px;
+    }
+
+    .pic-overlay p {
+        font-size: 16px;
+        line-height: 40px;
+        padding-top: 110px;
+    }
+
+    .dream-pic h4 {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    .choose-overlay {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 40px 130px;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.59);
+    }
+}
+
+
+@media only screen and (max-width: 365px) {
+    .overlay {
+        padding: 80px 130px;
+    }
+
+    .choose-overlay {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 40px 125px;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.59);
+    }
+
+    .dream-pic::after {
+        width: 199px;
+        height: 280px;
+        top: 34px;
+        left: 38px;
+    }
+
+    .pic-overlay {
+        bottom: 38px;
+    }
+
+    .pic-overlay p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 110px;
+    }
+
+    .dream-pic h4 {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .dream-pic::after {
+        width: 199px;
+        height: 261px;
+        top: 35px;
+        left: 33px;
+    }
+
+    .pic-overlay {
+        bottom: 35px;
+    }
+
+    .pic-overlay p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 110px;
+    }
+
+    .dream-pic h4 {
+        padding: 8px 0;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 340px) {
+    .carousel-indicators [data-bs-target] {
+        width: 1px;
+        height: 1px;
+        padding: 5px;
+
+    }
+
+    .carousel-caption h5 {
+        font-size: 14px;
+    }
+
+    .carousel-caption h6 {
+        font-size: 36px;
+        padding: 4px 0;
+
+    }
+
+    .carousel-caption p {
+        font-size: 9px;
+        padding-bottom: 6px;
+
+    }
+
+    .dream-pic::after {
+        width: 187px;
+        height: 261px;
+        top: 30px;
+        left: 33px;
+    }
+
+    .pic-overlay {
+        bottom: 35px;
+    }
+
+    .pic-overlay p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 110px;
+    }
+
+    .dream-pic h4 {
+        padding: 8px 0;
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 335px) {
+    .choose-overlay {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 30px 110px;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.59);
+    }
+}
+
+@media only screen and (max-width: 328px) {
+    .overlay {
+        padding: 65px 110px;
+    }
+
+    .dream-pic::after {
+        width: 178px;
+        height: 250px;
+        top: 30px;
+        left: 33px;
+    }
+
+    .pic-overlay {
+        bottom: 35px;
+    }
+
+    .pic-overlay p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 110px;
+    }
+
+    .dream-pic h4 {
+        padding: 8px 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 283px) {
+    .overlay {
+        padding: 50px 100px;
+    }
+
+    .choose-overlay {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 25px 97px;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.59);
+    }
+}

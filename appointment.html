@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+<!--- Google font-->
+      <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet"> 
+    <title>Eventia_Appointment_Book</title>
+<!--favicon-->
+      <link rel="icon" type="image/x-icon" href="./fabicon/favicon%20(1).ico"> 
+      
+      <!--   font-awesome-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+      <!--responsive css-->
+      <link href="css/responsive.css" rel="stylesheet" type="text/css">
+      
+      
+      <!--main css-->
+      <link href="css/style.css" rel="stylesheet" type="text/css">
+      
+      </head>
+    
+    
+      
+<!--    header  -->
+      
+    
+   <body>
+       
+       
+      <header class="page-header"> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Service's
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="services.html">Wedding</a></li>
+            <li><a class="dropdown-item" href="services.html" >Birthday</a></li>
+            <li><a class="dropdown-item" href="services.html" >Official Events </a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html" >Gallary</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+      </ul>
+        <button class="btn btn-outline-success" type="submit"><a href="appointment.html">BOOK APPOINTMENT</a></button>
+    </div>
+  </div>
+</nav> 
+</header>
+              <!--banner-->
+    <main>
+          
+              <div class="row gx-0">
+        <div class="appointment-book_banner position-relative">
+            <div class="appointment-book-overlay">
+          <div class="appointment_txt">
+
+           <a href="#"> <h2>Home</h2></a>
+           &nbsp; <a href="home.html"> <h2>></h2></a>&nbsp;
+            <a href="#"> <h2>Appointment Book</h2></a>
+          </div>          
+          </div>
+           
+      </div>
+              </div>
+        </main>
+    
+        </div>
+       
+       
+       
+       
+        <div class="container">
+    <div class=" row gx-0 ">
+        <div class="ourlogo col-lg-4 col-md-12 col-sm-12">
+            <img src="images/eventialogo.png" alt=""  height="80">
+        </div>
+        
+        </div>
+            
+            
+            <div class=" row gx-0 ">
+        <div class="booknow col-4">
+            <h1>Book Appointment</h1>
+        </div>
+        
+        </div>
+            
+            <div class=" row gx-0 ">
+        <div class="wantus col-4">
+            <p>Want us to plan your next big event? Contact us personally here.</p>
+        </div>
+        
+        </div>
+            
+    </div>
+        
+<!-- Form part  -->
+    <div class="container">
+  <form class="row g-3 mx-5 my-5">
+  <div class="col-md-6 mb-3">
+    <label for="inputEmail4" class="form-label">Full Name <sup style="color: red">*</sup></label>
+    <input type="name" class="form-control" id="Fullname4" placeholder="Enter Your Full Name">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Email Address<sup style="color: red">*</sup></label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Your Full Email Address">
+  </div>
+  
+  <div class="col-md-6 mb-3">
+    <label for="inputnumber" class="form-label">Contact Number<sup style="color: red">*</sup></label>
+    <input type="text" class="form-control" id="Contactnumber" placeholder="Enter Your Contact Number">
+  </div>
+  <div class="col-md-6">
+    <label for="inputService" class="form-label">Select Service<sup style="color: red">*</sup> </label>
+    <select id="inputService" class="form-select">
+      <option selected>Venue Booking</option>
+      <option>Decoration & Florist</option>
+        <option>Catering & Fooding</option>
+        <option>Sangeet Ceremony</option>
+        <option>Themed Varmala</option>
+        <option>Photography & Videography</option>
+        <option>Hospitality & Logistics</option>
+        <option>Corporate & Social Events</option>
+        
+    </select>
+  </div>
+  
+    <div class="form-floating mb-5">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 250px"></textarea>
+  <label for="floatingTextarea2">Write your query or message here.</label>
+</div>  
+      
+  
+  <div class="col-12" style="text-align: center">
+    <button type="submit" class="btn w-20 btn-lg submit-btn">Submit Details</button>
+  </div>
+</form>
+  </div>  
+<!-- footer-->
+    
+  <footer class="footer-page">
+    <div class="container">
+       <div class="row">
+       <div class="col-lg-4 col-md-12 col-sm-12 pt-4 pb-5">
+           <div class="des">
+           <img src="images/logo02.png">
+            <p>We are an event management company based in Kolkata.We cover a lot of services,including Wedding Planning, catering event Decoration and Birthday event.</p>
+           </div>
+           <div class="social">
+           <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+           <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+           <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+           <a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+           </div>
+           </div>
+       
+       <div class="col-lg-2 col-md-12 col-sm-12">
+           <div class="contact">
+           <article>Usefull Link</article>
+           <nav class="usefull">
+               <a href="home.html">Home</a>
+               <a href="aboutus.html">About Us</a>
+               <a href="services.html">Services</a>
+               <a href="gallery.html">Gallary</a>
+               <a href="contactus.html">Contact Us</a>
+           </nav>
+           </div>
+           </div>
+       <div class="col-lg-2 col-md-12 col-sm-12">
+           <div class="contact">
+           <article>Contact Us</article>
+           <nav class="usefull">
+               <a href="#">+91-8777785805</a>
+               <a href="#">eventia@gmail.com</a>
+               <a href="#">105 KNC Road, Barasat<br>
+                           Kolkata-700124 </a>
+           </nav>
+               </div>
+           </div>
+           
+           <div class="col-lg-3 col-md-12 col-sm-12">
+             <div class="insta">
+           <h5>Instagram Feed</h5>
+              <div class="sample">
+                 <img src="images/w5.png">
+                 </div>   
+             <div class="sample">
+                 <img src="images/b3.png">
+                 </div>    
+                 <div class="sample">
+                 <img src="images/b4.png">
+                 </div>
+                 <div class="sample">
+                 <img src="images/o3.png">
+                 </div>
+                 <div class="sample">
+                 <img src="images/w3.png">
+                 </div>
+                  <div class="sample">
+                 <img src="images/w4.png">
+                 </div>
+           </div>  
+           </div>
+           
+         
+        </div>
+     </div>
+    <div class="footer-end row">
+        <P>© 2022 Powred by : Ejobeindia student group</P>
+        </div>
+       </footer>
+      
+   
+    
+    
+    
+    
+    
+     <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
